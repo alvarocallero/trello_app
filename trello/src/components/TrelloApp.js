@@ -54,7 +54,7 @@ export default class TrelloApp extends React.Component {
         
     }
 
-    componentDidUpdate(prevState){
+    componentDidUpdate(prevProps,prevState){
         if (prevState.tasksType.length !== this.state.tasksType.length){
             const json = JSON.stringify(this.state.tasksType);
             localStorage.setItem("tasksType",json);
