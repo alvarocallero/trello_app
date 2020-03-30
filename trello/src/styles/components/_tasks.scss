@@ -1,0 +1,179 @@
+.tasks {
+    color: $off-white;
+    padding: 15px 15px 9px 15px;
+    max-width: 254px;
+    min-width: 254px;    
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 
+                0 4px 20px 0 rgba(0,0,0,0.19);
+    background: rgba(255,255,255,0.85);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 290px;
+
+    &__title{
+        color: black;
+        margin-top: -5px;
+        margin-bottom: 0px;
+    
+    }
+    
+}
+
+
+.tasks__description {
+    color: black;
+}
+
+.tasks__title__and__cross {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .5px solid;
+    text-align: center;
+    margin-top: -1px;
+    margin-bottom: 5px;
+    color: #a5afd7;
+    padding: 15px 15px 9px 15px;
+    max-width: 254px;
+    min-width: 254px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(255, 255, 255, 0.85);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    height: 15px;
+}
+
+.add-task-type__formcontainer {
+    height: 35px;
+}
+
+.tasks-add {
+    position: relative;
+    margin-top: -10px;
+    margin-left: 181px;
+}
+
+
+//ADD BUTTON
+.tasks-add__button {
+    border-radius: 4px;
+    background-color: $green;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+    width: 99px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+    height: 23px;
+  }
+  
+.tasks-add__button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.tasks-add__button span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.tasks-add__button:hover {
+    background-color: lighten($green, 5%);
+}
+
+.tasks-add__buton-div{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 5px;
+    color: #a5afd7;
+    padding: 15px 15px 9px 15px;
+    max-width: 254px;
+    min-width: 254px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(255, 255, 255, 0.85);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.tasks-add_button_and_form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+  //ADD BUTTON CONFIRM
+.tasks-add__button-confirm {
+    border-radius: 4px;
+    background-color: #1c7233;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+    width: 47px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+    height: 23px;
+    margin-left: 95px;
+    margin-top: 3px;
+  }
+  
+.tasks-add__button-confirm span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.tasks-add__button-confirm span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.tasks-add__button-confirm:hover {
+    background-color: lighten($green, 5%);
+}
+
+.tasks-add-name_input{
+    margin-left: 0px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    width: 221px;
+    padding: 6px;
+    font-size: 13px;
+    border-bottom: solid;
+    border-bottom-width: 0.1px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tasks-add-description_input {
+    overflow: auto;
+    font-size: 14px;
+    margin-left: 0px;
+    max-height: 53px;
+    width: 223px;
+    padding: 6px;    
+    height: 50px;
+    font-size: 13px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    resize: none
+}
+
+
+   

@@ -1,0 +1,61 @@
+.error-dialog-add-pipeline{
+    padding: 7px;
+    opacity: .85;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: thin;
+    border-style: groove;
+    font-size: 15px;
+    height: 10px;
+    border-radius: 3px 3px 3px 3px;
+    transition: right 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    color: #D8000C;
+    background-color: #FFBABA;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.error-dialog__text{
+    margin-top: -3px;
+}
+
+.add-task_errordialog {
+    margin-left: 10px;
+    width: 243px;
+    margin-top: -27px;
+    text-align: center;
+    padding: 7px;
+    opacity: .85;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: thin;
+    border-style: groove;
+    font-size: 15px;
+    height: 11px;
+    border-radius: 3px 3px 3px 3px;
+    transition: right 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    color: #D8000C;
+    background-color: #FFBABA;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.modal_errordialog{
+
+    /* margin-left: 0px; */
+    width: 192px;
+    margin-top: 14px;
+    text-align: center;
+    padding: 7px;
+    opacity: .85;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: thin;
+    border-style: groove;
+    font-size: 15px;
+    height: 11px;
+    border-radius: 3px 3px 3px 3px;
+    transition: right 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    color: #D8000C;
+    background-color: #FFBABA;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}

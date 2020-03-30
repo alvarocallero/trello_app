@@ -1,0 +1,36 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "description": "app similar to Trello",
+  "main": "index.js",
+  "author": "acallero",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.4",
+    "live-server": "^1.2.1",
+    "node-sass": "4.13.1",
+    "normalize.css": "7.0.0",
+    "react": "16.13.0",
+    "react-bootstrap": "1.0.0",
+    "react-dom": "16.13.0",
+    "react-modal": "3.9.1",
+    "react-scroll": "1.7.16",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "validator": "12.2.0",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  },
+  "devDependencies": {}
+}

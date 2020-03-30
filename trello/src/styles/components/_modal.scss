@@ -1,0 +1,113 @@
+.ReactModalPortal > div {
+    opacity:0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-open {
+    opacity: 0;
+}
+
+.modal {
+    background: white;
+    border-radius: 10px;
+    color: black;
+    max-width:30rem;
+    outline: none;
+    padding: $l-size;
+    text-align: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.modal__title {
+    margin-top: -23px;
+    font-size: larger;
+}
+
+.modal_body {
+    margin: 0 0 $l-size 0;
+    font-size: 2rem;
+    font-weight: 300;
+    word-break: break-all;
+}
+
+.modal__buttons{
+    display: flex;
+    justify-content: space-between;   
+    margin-bottom: -15px; 
+}
+
+.modal__taskname{
+    margin-left: 0px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    width: 221px;
+    padding: 6px;
+    font-size: 13px;
+}
+
+.modal__taskdescription{
+    display: flex;
+    margin-bottom: 31px;
+    width: 231px;
+    height: 115px;
+    resize: none;
+    font-size: 14px;
+
+}
+
+//CANCEL BUTTON
+.modal__button-cancel {
+    border-radius: 4px;
+    background-color: #d02929;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+    width: 99px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: -8px;
+    height: 23px;
+    margin-right: -132px;
+    
+  }
+  
+.modal__button-cancel span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.modal__button-cancel span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.modal__button-cancel:hover {
+    background-color: lighten($red, 10%);
+}
+
+//SAVE BUTTON
+.modal__button-save {
+    background-color: $green;
+}
+
+.modal__button-save:hover {
+    background-color: lighten($green, 5%);
+}
+

@@ -1,0 +1,61 @@
+// COLORS
+
+
+.close-container{
+  position: relative;
+  width: 50px;
+  height: 41px;
+  cursor: pointer;
+  margin-top: -20px;
+  margin-right: -30px;
+}
+
+.leftright{
+  height: 4px;
+  width: 25px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: $softorange;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all .3s ease-in;
+}
+
+.rightleft{
+  height: 4px;
+  width: 25px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: $softorange;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all .3s ease-in;
+}
+
+label{
+  color: white;
+  font-family: Helvetica, Arial, sans-serif; 
+  font-size: .6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+.close{
+  margin: 45px 0 0 2px;
+  position: absolute;
+  color: darkred;
+}
+
+.close-container:hover .leftright{
+  transform: rotate(-45deg);
+  background-color: $red;
+}
+.close-container:hover .rightleft{
+  transform: rotate(45deg);
+  background-color: $red;
+}
+.close-container:hover label{
+  opacity: 1;
+}
+
