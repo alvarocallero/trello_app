@@ -28,9 +28,11 @@
     "react-scroll": "1.7.16",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
-    "validator": "12.2.0",
-    "webpack": "3.1.0",
-    "webpack-dev-server": "3.1.11"
+    "validator": "12.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.7.1"
+  }
 }
