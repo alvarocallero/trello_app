@@ -1,3 +1,5 @@
+![ScreenShot](https://github.com/alvarocallero/trello_app/blob/master/trello.jpg)
+
 # TrelloApp
 This is an application to create and organize tasks like a Kanban board.
 You can create type of tasks like InProgress, Ready, Closed, etc, and add tasks of each type.
